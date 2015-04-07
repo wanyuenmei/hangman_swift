@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7DF3BFA1ACBF15D00D161C1 /* HangmanWords.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DF3BF81ACBF15D00D161C1 /* HangmanWords.m */; };
+		D7DF3BFB1ACBF15D00D161C1 /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7DF3BF91ACBF15D00D161C1 /* words.plist */; };
 		D7FAEBBB1ACBA5C4007B0397 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FAEBBA1ACBA5C4007B0397 /* AppDelegate.swift */; };
 		D7FAEBBD1ACBA5C4007B0397 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FAEBBC1ACBA5C4007B0397 /* ViewController.swift */; };
 		D7FAEBC01ACBA5C4007B0397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FAEBBE1ACBA5C4007B0397 /* Main.storyboard */; };
 		D7FAEBC21ACBA5C4007B0397 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7FAEBC11ACBA5C4007B0397 /* Images.xcassets */; };
 		D7FAEBC51ACBA5C4007B0397 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7FAEBC31ACBA5C4007B0397 /* LaunchScreen.xib */; };
 		D7FAEBD11ACBA5C4007B0397 /* HangmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FAEBD01ACBA5C4007B0397 /* HangmanTests.swift */; };
+		D7FAEBF11ACBB0DA007B0397 /* hang_0.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FAEBEA1ACBB0DA007B0397 /* hang_0.png */; };
+		D7FAEBF21ACBB0DA007B0397 /* hang_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FAEBEB1ACBB0DA007B0397 /* hang_1.png */; };
+		D7FAEBF31ACBB0DA007B0397 /* hang_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FAEBEC1ACBB0DA007B0397 /* hang_2.png */; };
+		D7FAEBF41ACBB0DA007B0397 /* hang_3.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FAEBED1ACBB0DA007B0397 /* hang_3.png */; };
+		D7FAEBF51ACBB0DA007B0397 /* hang_4.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FAEBEE1ACBB0DA007B0397 /* hang_4.png */; };
+		D7FAEBF61ACBB0DA007B0397 /* hang_5.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FAEBEF1ACBB0DA007B0397 /* hang_5.png */; };
+		D7FAEBF71ACBB0DA007B0397 /* hang_6.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FAEBF01ACBB0DA007B0397 /* hang_6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D7DF3BF61ACBF15C00D161C1 /* Hangman-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hangman-Bridging-Header.h"; sourceTree = "<group>"; };
+		D7DF3BF71ACBF15D00D161C1 /* HangmanWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HangmanWords.h; sourceTree = "<group>"; };
+		D7DF3BF81ACBF15D00D161C1 /* HangmanWords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HangmanWords.m; sourceTree = "<group>"; };
+		D7DF3BF91ACBF15D00D161C1 /* words.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = words.plist; sourceTree = "<group>"; };
 		D7FAEBB51ACBA5C4007B0397 /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FAEBB91ACBA5C4007B0397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7FAEBBA1ACBA5C4007B0397 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +49,13 @@
 		D7FAEBCA1ACBA5C4007B0397 /* HangmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FAEBCF1ACBA5C4007B0397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7FAEBD01ACBA5C4007B0397 /* HangmanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanTests.swift; sourceTree = "<group>"; };
+		D7FAEBEA1ACBB0DA007B0397 /* hang_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hang_0.png; sourceTree = "<group>"; };
+		D7FAEBEB1ACBB0DA007B0397 /* hang_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hang_1.png; sourceTree = "<group>"; };
+		D7FAEBEC1ACBB0DA007B0397 /* hang_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hang_2.png; sourceTree = "<group>"; };
+		D7FAEBED1ACBB0DA007B0397 /* hang_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hang_3.png; sourceTree = "<group>"; };
+		D7FAEBEE1ACBB0DA007B0397 /* hang_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hang_4.png; sourceTree = "<group>"; };
+		D7FAEBEF1ACBB0DA007B0397 /* hang_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hang_5.png; sourceTree = "<group>"; };
+		D7FAEBF01ACBB0DA007B0397 /* hang_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hang_6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +97,17 @@
 		D7FAEBB71ACBA5C4007B0397 /* Hangman */ = {
 			isa = PBXGroup;
 			children = (
+				D7DF3BF71ACBF15D00D161C1 /* HangmanWords.h */,
+				D7DF3BF81ACBF15D00D161C1 /* HangmanWords.m */,
+				D7DF3BF91ACBF15D00D161C1 /* words.plist */,
 				D7FAEBBA1ACBA5C4007B0397 /* AppDelegate.swift */,
 				D7FAEBBC1ACBA5C4007B0397 /* ViewController.swift */,
 				D7FAEBBE1ACBA5C4007B0397 /* Main.storyboard */,
+				D7FAEBE91ACBB0DA007B0397 /* HangmanImages */,
 				D7FAEBC11ACBA5C4007B0397 /* Images.xcassets */,
 				D7FAEBC31ACBA5C4007B0397 /* LaunchScreen.xib */,
 				D7FAEBB81ACBA5C4007B0397 /* Supporting Files */,
+				D7DF3BF61ACBF15C00D161C1 /* Hangman-Bridging-Header.h */,
 			);
 			path = Hangman;
 			sourceTree = "<group>";
@@ -111,6 +136,20 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		D7FAEBE91ACBB0DA007B0397 /* HangmanImages */ = {
+			isa = PBXGroup;
+			children = (
+				D7FAEBEA1ACBB0DA007B0397 /* hang_0.png */,
+				D7FAEBEB1ACBB0DA007B0397 /* hang_1.png */,
+				D7FAEBEC1ACBB0DA007B0397 /* hang_2.png */,
+				D7FAEBED1ACBB0DA007B0397 /* hang_3.png */,
+				D7FAEBEE1ACBB0DA007B0397 /* hang_4.png */,
+				D7FAEBEF1ACBB0DA007B0397 /* hang_5.png */,
+				D7FAEBF01ACBB0DA007B0397 /* hang_6.png */,
+			);
+			path = HangmanImages;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -194,7 +233,15 @@
 			files = (
 				D7FAEBC01ACBA5C4007B0397 /* Main.storyboard in Resources */,
 				D7FAEBC51ACBA5C4007B0397 /* LaunchScreen.xib in Resources */,
+				D7FAEBF71ACBB0DA007B0397 /* hang_6.png in Resources */,
+				D7FAEBF31ACBB0DA007B0397 /* hang_2.png in Resources */,
+				D7FAEBF21ACBB0DA007B0397 /* hang_1.png in Resources */,
+				D7FAEBF11ACBB0DA007B0397 /* hang_0.png in Resources */,
+				D7FAEBF41ACBB0DA007B0397 /* hang_3.png in Resources */,
+				D7FAEBF51ACBB0DA007B0397 /* hang_4.png in Resources */,
 				D7FAEBC21ACBA5C4007B0397 /* Images.xcassets in Resources */,
+				D7DF3BFB1ACBF15D00D161C1 /* words.plist in Resources */,
+				D7FAEBF61ACBB0DA007B0397 /* hang_5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +261,7 @@
 			files = (
 				D7FAEBBD1ACBA5C4007B0397 /* ViewController.swift in Sources */,
 				D7FAEBBB1ACBA5C4007B0397 /* AppDelegate.swift in Sources */,
+				D7DF3BFA1ACBF15D00D161C1 /* HangmanWords.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +384,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Hangman/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hangman/Hangman-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +397,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Hangman/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hangman/Hangman-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +458,7 @@
 				D7FAEBD61ACBA5C4007B0397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7FAEBD71ACBA5C4007B0397 /* Build configuration list for PBXNativeTarget "HangmanTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +467,7 @@
 				D7FAEBD91ACBA5C4007B0397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
